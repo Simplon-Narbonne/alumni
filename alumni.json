@@ -1,4 +1,4 @@
-{
+[
   {
   "lastname": "Dude",
   "fisrtname": "Abdallah",
@@ -23,4 +23,4 @@
   "description": "PHP7",
   "cvlink": "https://www.doyoubuzz.com/fr/p/modeles-cv/classic"
   },
-}
+]
