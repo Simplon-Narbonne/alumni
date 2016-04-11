@@ -3,25 +3,25 @@ angular.module('alumniApp', [])
   $scope.alumnis = [
     {
     "lastname": "Dude",
-    "fisrtname": "Abdallah",
+    "firstname": "Abdallah",
     "description": "Symfony, Magento",
     "cvlink": "https://www.doyoubuzz.com/fr/p/modeles-cv/classic"
     },
     {
     "lastname": "Dude",
-    "fisrtname": "Aladine",
+    "firstname": "Aladine",
     "description": "NodeJS, React",
     "cvlink": "https://www.doyoubuzz.com/fr/p/modeles-cv/classic"
     },
     {
     "lastname": "Dude",
-    "fisrtname": "Alix",
+    "firstname": "Alix",
     "description": "SPIP, Wordpress",
     "cvlink": "https://www.doyoubuzz.com/fr/p/modeles-cv/classic"
     },
     {
     "lastname": "Dude",
-    "fisrtname": "André",
+    "firstname": "André",
     "description": "PHP7",
     "cvlink": "https://www.doyoubuzz.com/fr/p/modeles-cv/classic"
     },
