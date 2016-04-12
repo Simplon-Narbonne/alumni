@@ -1,23 +1,16 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html ng-app='myApp'>
 <head>
-  <meta charset="utf-8">
-  <title>Liste alumnis</title>
-<!--  <link rel="stylesheet" href="assets/css/style.css"> -->
-  <script src="js/angular.min.js"></script>
-  <script src="js/controller.js"></script>
-</head>
-<body ng-app="alumniApp">
-  <div ng-controller="MainCtrl">
-    <!-- logique du contrôleur -->
-    <!-- boucler sur chaque alumni et afficher chaque champs -->
-    <div ng-repeat="alumni in alumnis">
-      {{alumni.lastname}}
-      {{alumni.firstname}}
-      {{alumni.description}}
-      {{alumni.cvlink}}
-    </div>
-
-  </div>
+	<title>tincy</title>
+	<meta charset='utf-8'>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+	<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.js'></script>
+	<script src='controller.js'></script>
 </body>
+</head>
+<body>
+	<div >
+		<div ng-view></div>
+	</div>
+	
 </html>
